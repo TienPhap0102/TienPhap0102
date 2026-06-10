@@ -1,4 +1,4 @@
-# Hi, I'm Phạm Tiến Pháp 👋
+# Hi, I'm Tien Phap 👋
 
 ## 👨‍💻 About Me
 
@@ -59,58 +59,82 @@ I supported digital onboarding by validating and processing customer information
 
 ### 📌 Omnichannel BI Dashboard & Retention Analysis
 
-Built an automated Power BI dashboard to monitor omnichannel performance across 2023–2025 datasets. The project applied Cohort Analysis and RFM segmentation to identify retention problems, customer value groups, and business opportunities.
+Developed an interactive Power BI dashboard to analyze retail banking transactions from 2023 to 2025. The project focused on monitoring omnichannel performance, customer behavior, revenue drivers, retention trends, and risk signals.
 
 **Tech stack:** Power BI, Power Query, DAX, Python
-**Key methods:** Cohort Analysis, RFM Segmentation, Retention Analysis, Dashboard Reporting
+**Key methods:** RFM Analysis, Cohort Analysis, Pareto Analysis, Customer Segmentation
+
+**Key insights:**
+
+* Middle-income customers and Loan products were the main revenue drivers
+* New customer acquisition dropped by 61.6% in 2025, with retention falling to 30.8%
+* Champions, Loyal, and At-Risk customers contributed around 65% of total monetary value
+* Low-income customers faced the highest fee burden ratio at 1.87%
+* Fraudulent transactions were highly concentrated in Loan Payment activities
+
+**Business recommendations:**
+
+* Build a 90-day onboarding journey to improve early retention
+* Introduce tiered fee structures for low-income customers
+* Launch VIP loyalty programs for high-value segments
+* Develop early-warning signals for At-Risk customers and abnormal loan payment behavior
 
 ---
 
 ### 📌 Comprehensive Health Assessment & Long-Term Growth Strategy
 
-Analyzed more than 2 million user events to identify customer journey bottlenecks and growth opportunities. The project used Funnel Analysis, Sankey Flow, RFM Modeling, Cohort Analysis, and Market Basket Analysis to propose strategies for retention, cross-selling, and revenue growth.
+Conducted an end-to-end business health analysis for The Look eCommerce platform using a multi-million-row dataset covering user events, orders, products, and customer behavior. The project focused on identifying conversion bottlenecks, retention issues, revenue concentration, product performance, and cross-selling opportunities.
 
-**Tech stack:** Python, Pandas, Matplotlib, Seaborn
-**Key methods:** Funnel Analysis, Sankey Flow, RFM, Cohort Analysis, Apriori Algorithm
+**Tech stack:** Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly
+**Key methods:** Funnel Analysis, Sankey Flow, Cohort Analysis, RFM Modeling, Pareto Analysis, Apriori Algorithm
 
+**Key insights:**
+
+* Around 60% of users dropped off at the Cart → Purchase stage, indicating major checkout friction
+* Retention dropped sharply to only 2%–5% by the second month
+* 13,000+ high-value customers were identified as Hibernating or Lost
+* 12 out of 26 product categories generated 76% of total revenue
+* Market Basket Analysis revealed strong cross-selling opportunities to increase AOV from $84.88 to over $100
+
+**Business recommendations:**
+
+* Optimize checkout flow with guest checkout, transparent fees, and abandoned cart recovery
+* Launch win-back campaigns for At-Risk and Cannot Lose Them customer segments
+* Build product bundles and “Frequently Bought Together” recommendations
+* Improve size guides and supplier quality control for high-return categories
+* Apply smarter inventory planning for key revenue-driving categories
+  
 ---
 
 ### 📌 Traffic to Value: A Full Funnel Analysis of User Journey Retention
 
-Conducted an end-to-end funnel analysis for an e-commerce business to evaluate how users move from acquisition sources to landing pages, product pages, purchases, refunds, or drop-offs. The project focused on identifying funnel bottlenecks, optimizing marketing ROI, and comparing user behavior across Mobile and Desktop platforms.
-
-The analysis revealed that around **93% of sessions ended in drop-off**, while only **30,590 sessions completed purchases** and **1,731 sessions resulted in refunds**. Through Sankey Flow and journey mapping, the project identified major friction points on high-traffic landing pages, especially `/lander-2`, and proposed device-specific optimization strategies such as UI/UX audits, A/B testing, mobile-first redesign, and retargeting campaigns.
+Analyzed the end-to-end e-commerce user journey from traffic sources to landing pages, product views, purchases, refunds, and drop-offs. The project identified key funnel bottlenecks, especially on high-traffic landing pages such as `/lander-2`, and compared conversion friction across Mobile and Desktop users.
 
 **Tech stack:** Python, Pandas, NumPy, Plotly, Seaborn, Matplotlib
-**Key methods:** Funnel Analysis, Sankey Flow, Customer Journey Analysis, Traffic Source Analysis, Device Segmentation
+**Key methods:** Funnel Analysis, Sankey Flow, Customer Journey Analysis, Device Segmentation
 
-**Business recommendations:**
+**Key insights:**
 
-* Improve `/lander-2` through UI/UX audit and A/B testing
-* Optimize mobile checkout flow and payment experience
-* Shift marketing focus from traffic acquisition to conversion rate optimization
-* Retarget users who drop off after viewing product pages
-* Promote hero products on high-bounce landing pages
+* Around 93% of sessions ended in drop-off
+* Desktop users showed stronger conversion but faced bottlenecks on `/lander-2`
+* Mobile users had higher early-stage drop-off, requiring mobile-first UX optimization
+* Recommended A/B testing, checkout simplification, retargeting campaigns, and hero product placement
 
 ---
 
 ### 📌 Strategic Profit Segmentation: Optimizing E-commerce Inventory & Customer Loyalty through ABC Analysis
 
-Applied ABC Analysis to an e-commerce dataset with more than 4,000 active SKUs to support inventory prioritization and customer loyalty strategy. The project aimed to identify the most profitable product groups and the top high-value customers for exclusive loyalty rewards.
-
-The product portfolio analysis showed that approximately **35% of products generated 80% of total profit**, while Group C products accounted for a large share of SKUs but contributed only a small portion of profit. The customer analysis also revealed that around **30% of customers generated 80% of total profit**, making them the most valuable segment for VIP loyalty programs.
+Applied ABC Analysis to segment more than 4,000 SKUs and customers based on profit contribution. The project helped prioritize inventory control, warehouse allocation, and loyalty rewards for the most valuable products and customers.
 
 **Tech stack:** Python, Pandas, NumPy, Plotly, Seaborn, Matplotlib
-**Key methods:** ABC Analysis, Profit Segmentation, Customer Segmentation, Inventory Optimization, Loyalty Strategy
+**Key methods:** ABC Analysis, Profit Segmentation, Customer Segmentation, Inventory Optimization
 
-**Business recommendations:**
+**Key insights:**
 
-* Prioritize Group A products with strict inventory control and premium warehouse placement
-* Maintain standard safety stock for Group B products
-* Reduce stock levels and use clearance promotions for Group C products
-* Allocate premium gift slots to top 500 high-value customers
-* Use upselling and cross-selling campaigns to move Group B customers into Group A
-* Apply cost-effective retention strategies for mass-market customers
+* Group A products accounted for about 80% of total profit
+* Group C products contributed little profit and required stock reduction or clearance plans
+* Top-value customers generated most of the profit and should be prioritized for VIP loyalty programs
+* Recommended premium inventory control, targeted upselling, and cost-effective mass retention strategies
 
 ## 🏆 Honors & Awards
 
@@ -127,5 +151,4 @@ The product portfolio analysis showed that approximately **35% of products gener
 ## 📫 Contact
 
 * 📧 Email: [tienphap0102@gmail.com](mailto:tienphap0102@gmail.com)
-* 💼 LinkedIn: Add your LinkedIn link here
-* 🐙 GitHub: Add your GitHub link here
+* 💼 LinkedIn: [Phap Pham Tien](https://www.linkedin.com/in/phap-pham-tien-3a1a57268/)
